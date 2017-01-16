@@ -1,6 +1,5 @@
 package net.swiftos.eventposter.Utils;
 
-import android.support.annotation.NonNull;
 
 import net.swiftos.eventposter.Impls.ViewEvent.Interface.OnViewAttachListener;
 
@@ -38,19 +37,16 @@ public class SyncWeakList<T> implements List<T>{
         return map.containsKey(o);
     }
 
-    @NonNull
     @Override
     public Iterator<T> iterator() {
         return map.keySet().iterator();
     }
 
-    @NonNull
     @Override
     public Object[] toArray() {
         return map.keySet().toArray();
     }
 
-    @NonNull
     @Override
     public <T1> T1[] toArray(T1[] a) {
         return map.keySet().toArray(a);
@@ -133,13 +129,11 @@ public class SyncWeakList<T> implements List<T>{
         return null;
     }
 
-    @NonNull
     @Override
     public ListIterator<T> listIterator(int index) {
         return null;
     }
 
-    @NonNull
     @Override
     public List<T> subList(int fromIndex, int toIndex) {
         return null;

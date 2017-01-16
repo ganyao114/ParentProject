@@ -1,7 +1,5 @@
 package net.swiftos.eventposter.Utils;
 
-import android.support.annotation.NonNull;
-
 import java.util.Collection;
 import java.util.Map;
 import java.util.Set;
@@ -48,7 +46,6 @@ public class SyncMapProxy<K,V> implements Map<K,V> {
         return res;
     }
 
-    @NonNull
     @Override
     public Set<Entry<K, V>> entrySet() {
         lock.readLock().lock();
@@ -70,7 +67,6 @@ public class SyncMapProxy<K,V> implements Map<K,V> {
         return origin.isEmpty();
     }
 
-    @NonNull
     @Override
     public Set<K> keySet() {
         lock.readLock().lock();
@@ -107,7 +103,6 @@ public class SyncMapProxy<K,V> implements Map<K,V> {
         return origin.size();
     }
 
-    @NonNull
     @Override
     public Collection<V> values() {
         lock.readLock().lock();
