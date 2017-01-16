@@ -2,6 +2,7 @@ package net.swiftos.common.model.net;
 
 
 import net.swiftos.common.application.BaseApplication;
+import net.swiftos.common.exception.CommonExceptionFactory;
 import net.swiftos.common.exception.ExceptionAdapter;
 import net.swiftos.common.exception.HttpServiceException;
 import net.swiftos.common.exception.IExceptionFactory;
@@ -34,10 +35,12 @@ public class BaseModel {
 
     public BaseModel() {
         BaseApplication.getAppComponent().inject(this);
+        exceptionFactory = new CommonExceptionFactory();
     }
 
     public BaseModel(IExceptionFactory exceptionFactory) {
         this.exceptionFactory = exceptionFactory;
+        BaseApplication.getAppComponent().inject(this);
     }
 
     public <T> Observable<T> getAsyncObservable(Observable<BaseResponse<T>> observable) {

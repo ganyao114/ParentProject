@@ -5,6 +5,10 @@ import android.app.Application;
 import net.swiftos.common.di.component.AppComponent;
 import net.swiftos.common.di.component.DaggerAppComponent;
 import net.swiftos.common.di.module.AppModule;
+import net.swiftos.common.presenter.BasePresenter;
+import net.swiftos.common.presenter.MainPresenter;
+import net.swiftos.eventposter.Core.EventPoster;
+import net.swiftos.eventposter.Presenter.Presenter;
 
 /**
  * Created by gy939 on 2017/1/11.
@@ -26,11 +30,14 @@ public class BaseApplication extends Application {
         return application;
     }
 
-    private void init() {
+    protected void init(Class<? extends BasePresenter> presenter) {
         appComponent = DaggerAppComponent
                 .builder()
                 .appModule(new AppModule(this))
                 .build();
+        EventPoster.init(this);
+        Presenter.establish();
+        Presenter.With(null).start(presenter);
     }
 
     public static AppComponent getAppComponent() {

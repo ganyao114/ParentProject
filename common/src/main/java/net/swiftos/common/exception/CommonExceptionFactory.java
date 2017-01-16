@@ -23,6 +23,7 @@ public class CommonExceptionFactory implements IExceptionFactory {
     @Override
     public ErrorResponse onError(Throwable throwable, Object tag) {
         ErrorResponse errorResponse = new ErrorResponse();
-        return null;
+        errorResponse.setTag(tag);
+        return errorResponse;
     }
 }
