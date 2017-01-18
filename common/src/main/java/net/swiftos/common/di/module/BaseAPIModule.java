@@ -48,6 +48,9 @@ public abstract class BaseAPIModule {
 
     protected OkHttpClient getOkHttpClient() {
         if (okHttpClient == null) {
+            if (configs == null) {
+                configs = new APIServiceConfigs();
+            }
             okHttpClient = new OkHttpClient.Builder()
                     .addNetworkInterceptor(new BasicParamsInterceptor(headers, pars, configs.getInterceptor()))
                     .connectTimeout(configs.getConnectTimeout(), TimeUnit.MILLISECONDS)

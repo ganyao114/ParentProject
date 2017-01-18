@@ -1,5 +1,9 @@
 package net.swiftos.common.navigation;
 
+import android.content.Intent;
+
+import net.swiftos.utils.IDFactory;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -17,8 +21,10 @@ public class Navigater {
         return (T) dataStack.remove(key);
     }
 
-    public static void navigateOut(String key, Object data) {
+    public static void navigateOut(Intent intent, Object data) {
+        String key = "navi_key" + IDFactory.getId();
         dataStack.put(key, data);
+        intent.putExtra(NAVI_CODE, key);
     }
 
     public interface INavigate {

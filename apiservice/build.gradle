@@ -68,4 +68,5 @@ dependencies {
     compile rootProject.ext.dependencies.dagger_compiler
     compile rootProject.ext.dependencies.butterknife
     compile rootProject.ext.dependencies.realm
+    compile project(path: ':common')
 }
