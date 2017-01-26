@@ -1,5 +1,6 @@
 package net.swiftos.common.presenter;
 
+import net.swiftos.common.navigation.Navigater;
 import net.swiftos.eventposter.Presenter.Presenter;
 
 import rx.Subscription;
@@ -9,7 +10,7 @@ import rx.subscriptions.CompositeSubscription;
  * Created by ganyao on 2016/10/26.
  */
 
-public abstract class BasePresenter extends Presenter{
+public abstract class BasePresenter extends Presenter implements Navigater.INavigate{
 
     protected CompositeSubscription compositeSubscription;
 
@@ -34,10 +35,6 @@ public abstract class BasePresenter extends Presenter{
 
     public void onViewDestoryed() {
         onUnsubscribe();
-    }
-
-    public <T> void onGetPar(T t) {
-
     }
 
 

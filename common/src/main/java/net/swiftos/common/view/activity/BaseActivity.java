@@ -22,7 +22,7 @@ import butterknife.ButterKnife;
 /**
  * Created by ganyao on 2016/10/26.
  */
-public abstract class BaseActivity extends Activity {
+public abstract class BaseActivity extends Activity implements Navigater.INavigate {
 
     private BasePresenter basePresenter;
 
@@ -42,7 +42,7 @@ public abstract class BaseActivity extends Activity {
         }
         String navigateKey = getIntent().getStringExtra(Navigater.NAVI_CODE);
         if (!ValidateUtil.isEmpty(navigateKey)) {
-            getPars(Navigater.navigateIn(navigateKey));
+            onNavigate(Navigater.navigateIn(navigateKey));
         }
         initData();
     }
@@ -84,9 +84,9 @@ public abstract class BaseActivity extends Activity {
 
     protected abstract void initView();
 
-    protected <T> void getPars(T par) {
+    public <T> void onNavigate(T par) {
         if (basePresenter != null) {
-            basePresenter.onGetPar(par);
+            basePresenter.onNavigate(par);
         }
     }
 

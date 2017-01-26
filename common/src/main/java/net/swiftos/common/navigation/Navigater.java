@@ -28,7 +28,7 @@ public class Navigater {
     }
 
     public interface INavigate {
-        void onNavigate(Object object);
+        <T> void onNavigate(T data);
     }
 
 }
