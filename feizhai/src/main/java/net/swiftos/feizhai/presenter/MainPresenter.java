@@ -7,4 +7,8 @@ import net.swiftos.common.presenter.BasePresenter;
  */
 
 public class MainPresenter extends BasePresenter {
+    @Override
+    public <T> void onNavigate(T data) {
+
+    }
 }

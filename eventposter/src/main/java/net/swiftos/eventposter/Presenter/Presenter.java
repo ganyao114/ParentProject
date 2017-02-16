@@ -94,10 +94,10 @@ public abstract class Presenter implements IPresenter{
             T presenter = null;
             try {
                 presenter = presenterType.newInstance();
-            } catch (InstantiationException e) {
-                e.printStackTrace();
-            } catch (IllegalAccessException e) {
-                e.printStackTrace();
+            } catch (Exception e) {
+                LOG.e("presenter" + presenterType.getSimpleName() + "init error");
+                System.exit(1);
+                return null;
             }
             if (presenter == null)
                 return null;

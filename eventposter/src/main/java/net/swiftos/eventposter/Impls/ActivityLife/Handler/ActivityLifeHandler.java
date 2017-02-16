@@ -13,6 +13,7 @@ import net.swiftos.eventposter.Impls.ActivityLife.Entity.ActivityLifeType;
 import net.swiftos.eventposter.Impls.ActivityLife.Entity.LifeInvokerEntity;
 import net.swiftos.eventposter.Interface.IEventEntity;
 import net.swiftos.eventposter.Interface.IHandler;
+import net.swiftos.eventposter.Utils.LOG;
 
 import java.util.Map;
 import java.util.Vector;
@@ -127,7 +128,7 @@ public class ActivityLifeHandler implements IHandler,Application.ActivityLifecyc
                 try {
                     entity.invoke(invoker,pars);
                 } catch (EventInvokeException e) {
-                    e.printStackTrace();
+                    LOG.e(type.name() + "event on activity: " + acType.getSimpleName() + " dispatch error!");
                 }
             }
         }
@@ -147,8 +148,6 @@ public class ActivityLifeHandler implements IHandler,Application.ActivityLifecyc
     public void onActivityCreated(Activity activity, Bundle savedInstanceState) {
         dispatchEvent(activity.getClass(),ActivityLifeType.OnCreate,activity,savedInstanceState);
     }
-
-
 
     @Override
     public void onActivityStarted(Activity activity) {

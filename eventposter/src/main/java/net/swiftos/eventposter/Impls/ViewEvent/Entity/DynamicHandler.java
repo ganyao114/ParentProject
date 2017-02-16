@@ -11,6 +11,7 @@ import java.util.Vector;
 
 public class DynamicHandler implements InvocationHandler {
 
+    //仅保存类型 防止 memory leak
     private Vector<Class> handlerTypes = new Vector<>();
     private final HashMap<String, Method> methodMap = new HashMap<String, Method>(
             1);
