@@ -1,9 +1,6 @@
-package net.swiftos.eventposter.Interface;
+package net.swiftos.eventposter.template;
 
-import net.swiftos.eventposter.Entity.EventAnnoInfo;
-
-import java.lang.annotation.Annotation;
-import java.lang.reflect.Method;
+import net.swiftos.eventposter.entity.EventAnnoInfo;
 
 /**
  * Created by gy939 on 2016/10/3.

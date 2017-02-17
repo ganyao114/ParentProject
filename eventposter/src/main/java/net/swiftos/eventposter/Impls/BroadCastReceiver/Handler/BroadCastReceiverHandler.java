@@ -1,17 +1,17 @@
-package net.swiftos.eventposter.Impls.BroadCastReceiver.Handler;
+package net.swiftos.eventposter.impls.broadcastreceiver.handler;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 
-import net.swiftos.eventposter.Core.EventPoster;
-import net.swiftos.eventposter.Entity.DynamicHandler;
-import net.swiftos.eventposter.Entity.EventAnnoInfo;
-import net.swiftos.eventposter.Impls.BroadCastReceiver.Annotation.BroadCastReceiver;
-import net.swiftos.eventposter.Impls.BroadCastReceiver.Entity.BroadCastEntity;
-import net.swiftos.eventposter.Impls.BroadCastReceiver.Entity.IReciver;
-import net.swiftos.eventposter.Interface.IHandler;
+import net.swiftos.eventposter.core.EventPoster;
+import net.swiftos.eventposter.entity.DynamicHandler;
+import net.swiftos.eventposter.entity.EventAnnoInfo;
+import net.swiftos.eventposter.impls.broadcastreceiver.annotation.BroadCastReceiver;
+import net.swiftos.eventposter.impls.broadcastreceiver.entity.BroadCastEntity;
+import net.swiftos.eventposter.impls.broadcastreceiver.entity.IReciver;
+import net.swiftos.eventposter.template.IHandler;
 
 import java.lang.reflect.Proxy;
 

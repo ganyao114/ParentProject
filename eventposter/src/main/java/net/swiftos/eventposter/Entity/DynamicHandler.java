@@ -1,4 +1,4 @@
-package net.swiftos.eventposter.Entity;
+package net.swiftos.eventposter.entity;
 
 import java.lang.ref.WeakReference;
 import java.lang.reflect.InvocationHandler;

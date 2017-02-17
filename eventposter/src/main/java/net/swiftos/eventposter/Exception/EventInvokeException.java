@@ -1,4 +1,4 @@
-package net.swiftos.eventposter.Exception;
+package net.swiftos.eventposter.exception;
 
 /**
  * Created by gy939 on 2016/10/3.

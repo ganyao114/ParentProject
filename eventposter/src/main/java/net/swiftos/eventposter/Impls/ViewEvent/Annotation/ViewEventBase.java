@@ -1,4 +1,4 @@
-package net.swiftos.eventposter.Impls.ViewEvent.Annotation;
+package net.swiftos.eventposter.impls.viewevent.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

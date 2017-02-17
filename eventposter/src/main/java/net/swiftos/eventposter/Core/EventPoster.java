@@ -1,10 +1,10 @@
-package net.swiftos.eventposter.Core;
+package net.swiftos.eventposter.core;
 
 import android.app.Application;
 
-import net.swiftos.eventposter.Factory.HandlerFactory;
-import net.swiftos.eventposter.Impls.ActivityLife.Handler.ActivityLifeHandler;
-import net.swiftos.eventposter.Interface.IHandler;
+import net.swiftos.eventposter.factory.HandlerFactory;
+import net.swiftos.eventposter.impls.activitylife.handler.ActivityLifeHandler;
+import net.swiftos.eventposter.template.IHandler;
 
 /**
  * Created by gy939 on 2016/10/3.

@@ -1,8 +1,8 @@
-package net.swiftos.eventposter.Impls.CustomEvent.Annotation;
+package net.swiftos.eventposter.impls.customevent.annotation;
 
-import net.swiftos.eventposter.Annotation.EventBase;
-import net.swiftos.eventposter.Impls.CustomEvent.Entity.RunContextType;
-import net.swiftos.eventposter.Impls.CustomEvent.Handler.CustomEventHandler;
+import net.swiftos.eventposter.annotation.EventBase;
+import net.swiftos.eventposter.impls.customevent.entity.RunContextType;
+import net.swiftos.eventposter.impls.customevent.handler.CustomEventHandler;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

@@ -1,4 +1,4 @@
-package net.swiftos.eventposter.Presenter;
+package net.swiftos.eventposter.presenter;
 
 /**
  * Created by gy939 on 2016/9/28.

@@ -1,6 +1,6 @@
-package net.swiftos.eventposter.Interface;
+package net.swiftos.eventposter.template;
 
-import net.swiftos.eventposter.Exception.EventInvokeException;
+import net.swiftos.eventposter.exception.EventInvokeException;
 
 /**
  * Created by gy939 on 2016/10/3.

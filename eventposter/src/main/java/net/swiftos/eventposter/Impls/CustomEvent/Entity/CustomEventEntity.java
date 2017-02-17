@@ -1,8 +1,8 @@
-package net.swiftos.eventposter.Impls.CustomEvent.Entity;
+package net.swiftos.eventposter.impls.customevent.entity;
 
-import net.swiftos.eventposter.Exception.EventInvokeException;
-import net.swiftos.eventposter.Interface.IEventEntity;
-import net.swiftos.eventposter.Invoker.Invoker;
+import net.swiftos.eventposter.exception.EventInvokeException;
+import net.swiftos.eventposter.template.IEventEntity;
+import net.swiftos.eventposter.invoker.Invoker;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;

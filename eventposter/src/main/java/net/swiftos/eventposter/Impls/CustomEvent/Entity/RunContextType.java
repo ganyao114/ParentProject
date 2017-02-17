@@ -1,4 +1,4 @@
-package net.swiftos.eventposter.Impls.CustomEvent.Entity;
+package net.swiftos.eventposter.impls.customevent.entity;
 
 /**
  * Created by pc on 16/5/13.

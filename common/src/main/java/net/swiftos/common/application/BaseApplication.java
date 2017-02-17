@@ -6,8 +6,8 @@ import net.swiftos.common.di.component.AppComponent;
 import net.swiftos.common.di.component.DaggerAppComponent;
 import net.swiftos.common.di.module.AppModule;
 import net.swiftos.common.presenter.BasePresenter;
-import net.swiftos.eventposter.Core.EventPoster;
-import net.swiftos.eventposter.Presenter.Presenter;
+import net.swiftos.eventposter.core.EventPoster;
+import net.swiftos.eventposter.presenter.Presenter;
 
 /**
  * Created by gy939 on 2017/1/11.

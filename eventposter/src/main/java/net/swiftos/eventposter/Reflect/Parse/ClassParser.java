@@ -1,9 +1,9 @@
-package net.swiftos.eventposter.Reflect.Parse;
+package net.swiftos.eventposter.reflect.parse;
 
-import net.swiftos.eventposter.Annotation.EventBase;
-import net.swiftos.eventposter.Cache.ReflectionCache;
-import net.swiftos.eventposter.Entity.EventAnnoInfo;
-import net.swiftos.eventposter.Interface.IHandler;
+import net.swiftos.eventposter.annotation.EventBase;
+import net.swiftos.eventposter.cache.ReflectionCache;
+import net.swiftos.eventposter.entity.EventAnnoInfo;
+import net.swiftos.eventposter.template.IHandler;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;

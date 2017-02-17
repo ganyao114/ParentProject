@@ -1,4 +1,4 @@
-package net.swiftos.eventposter.Invoker;
+package net.swiftos.eventposter.invoker;
 
 /**
  * Created by pc on 16/5/14.

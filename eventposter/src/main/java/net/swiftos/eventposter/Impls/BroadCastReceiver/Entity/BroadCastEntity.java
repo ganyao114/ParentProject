@@ -1,12 +1,9 @@
-package net.swiftos.eventposter.Impls.BroadCastReceiver.Entity;
+package net.swiftos.eventposter.impls.broadcastreceiver.entity;
 
-import android.content.BroadcastReceiver;
-import android.content.Context;
-import android.content.Intent;
 import android.content.IntentFilter;
 
-import net.swiftos.eventposter.Exception.EventInvokeException;
-import net.swiftos.eventposter.Interface.IEventEntity;
+import net.swiftos.eventposter.exception.EventInvokeException;
+import net.swiftos.eventposter.template.IEventEntity;
 
 import java.lang.reflect.Method;
 

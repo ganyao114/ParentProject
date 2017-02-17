@@ -1,6 +1,6 @@
-package net.swiftos.eventposter.Invoker;
+package net.swiftos.eventposter.invoker;
 
-import net.swiftos.eventposter.Exception.EventInvokeException;
+import net.swiftos.eventposter.exception.EventInvokeException;
 
 import java.lang.reflect.Method;
 

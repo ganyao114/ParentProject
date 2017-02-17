@@ -1,4 +1,4 @@
-package net.swiftos.eventposter.Impls.BroadCastReceiver.Entity;
+package net.swiftos.eventposter.impls.broadcastreceiver.entity;
 
 import android.content.Context;
 import android.content.Intent;

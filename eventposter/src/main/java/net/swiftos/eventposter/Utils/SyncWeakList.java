@@ -1,7 +1,5 @@
-package net.swiftos.eventposter.Utils;
+package net.swiftos.eventposter.utils;
 
-
-import net.swiftos.eventposter.Impls.ViewEvent.Interface.OnViewAttachListener;
 
 import java.util.Collection;
 import java.util.Iterator;

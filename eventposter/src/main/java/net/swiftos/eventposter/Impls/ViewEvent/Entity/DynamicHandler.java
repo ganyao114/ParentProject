@@ -1,9 +1,8 @@
-package net.swiftos.eventposter.Impls.ViewEvent.Entity;
+package net.swiftos.eventposter.impls.viewevent.entity;
 
-import net.swiftos.eventposter.Core.Injecter;
-import net.swiftos.eventposter.Exception.EventInvokeException;
+import net.swiftos.eventposter.core.Injecter;
+import net.swiftos.eventposter.exception.EventInvokeException;
 
-import java.lang.ref.WeakReference;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.util.HashMap;

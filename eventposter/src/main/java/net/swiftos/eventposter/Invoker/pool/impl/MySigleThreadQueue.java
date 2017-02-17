@@ -1,7 +1,7 @@
-package net.swiftos.eventposter.Invoker.pool.impl;
+package net.swiftos.eventposter.invoker.pool.impl;
 
-import net.swiftos.eventposter.Invoker.pool.control.ThreadPoolControl;
-import net.swiftos.eventposter.Invoker.pool.strategy.SigleThreadPool;
+import net.swiftos.eventposter.invoker.pool.control.ThreadPoolControl;
+import net.swiftos.eventposter.invoker.pool.strategy.SigleThreadPool;
 
 /**
  * Created by gy on 2016/2/22.

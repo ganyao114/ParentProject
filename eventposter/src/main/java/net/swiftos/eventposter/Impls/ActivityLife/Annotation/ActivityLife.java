@@ -1,10 +1,10 @@
-package net.swiftos.eventposter.Impls.ActivityLife.Annotation;
+package net.swiftos.eventposter.impls.activitylife.annotation;
 
 import android.app.Activity;
 
-import net.swiftos.eventposter.Annotation.EventBase;
-import net.swiftos.eventposter.Impls.ActivityLife.Entity.ActivityLifeType;
-import net.swiftos.eventposter.Impls.ActivityLife.Handler.ActivityLifeHandler;
+import net.swiftos.eventposter.annotation.EventBase;
+import net.swiftos.eventposter.impls.activitylife.entity.ActivityLifeType;
+import net.swiftos.eventposter.impls.activitylife.handler.ActivityLifeHandler;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

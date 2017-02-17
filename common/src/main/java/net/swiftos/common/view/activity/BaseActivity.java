@@ -5,6 +5,7 @@ import android.app.ProgressDialog;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.support.annotation.LayoutRes;
+import android.support.v7.app.AppCompatActivity;
 import android.view.KeyEvent;
 import android.view.Window;
 import android.view.WindowManager;
@@ -22,7 +23,7 @@ import butterknife.ButterKnife;
 /**
  * Created by ganyao on 2016/10/26.
  */
-public abstract class BaseActivity extends Activity implements Navigater.INavigate {
+public abstract class BaseActivity extends AppCompatActivity implements Navigater.INavigate {
 
     private BasePresenter basePresenter;
 

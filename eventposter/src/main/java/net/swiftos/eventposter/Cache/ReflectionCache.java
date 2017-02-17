@@ -1,6 +1,6 @@
-package net.swiftos.eventposter.Cache;
+package net.swiftos.eventposter.cache;
 
-import net.swiftos.eventposter.Entity.EventAnnoInfo;
+import net.swiftos.eventposter.entity.EventAnnoInfo;
 
 import java.lang.reflect.Method;
 import java.util.Map;

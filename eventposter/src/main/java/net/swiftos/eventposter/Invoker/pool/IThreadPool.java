@@ -1,7 +1,7 @@
-package net.swiftos.eventposter.Invoker.pool;
+package net.swiftos.eventposter.invoker.pool;
 
 
-import net.swiftos.eventposter.Invoker.pool.configs.ThreadPoolConfigs;
+import net.swiftos.eventposter.invoker.pool.configs.ThreadPoolConfigs;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.Future;

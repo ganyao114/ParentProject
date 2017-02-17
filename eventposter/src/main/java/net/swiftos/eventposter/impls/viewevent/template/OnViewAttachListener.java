@@ -1,6 +1,5 @@
-package net.swiftos.eventposter.Impls.ViewEvent.Interface;
+package net.swiftos.eventposter.impls.viewevent.template;
 
-import android.content.Context;
 import android.view.View;
 
 /**

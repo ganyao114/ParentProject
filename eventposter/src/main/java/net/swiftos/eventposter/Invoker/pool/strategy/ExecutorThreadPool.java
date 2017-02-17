@@ -1,9 +1,9 @@
-package net.swiftos.eventposter.Invoker.pool.strategy;
+package net.swiftos.eventposter.invoker.pool.strategy;
 
 
-import net.swiftos.eventposter.Invoker.pool.IThreadPool;
-import net.swiftos.eventposter.Invoker.pool.configs.ThreadPoolConfigs;
-import net.swiftos.eventposter.Invoker.pool.factory.WorkThreadFactory;
+import net.swiftos.eventposter.invoker.pool.IThreadPool;
+import net.swiftos.eventposter.invoker.pool.configs.ThreadPoolConfigs;
+import net.swiftos.eventposter.invoker.pool.factory.WorkThreadFactory;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.Callable;

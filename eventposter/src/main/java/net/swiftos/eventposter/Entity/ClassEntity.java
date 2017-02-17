@@ -1,6 +1,5 @@
-package net.swiftos.eventposter.Entity;
+package net.swiftos.eventposter.entity;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 

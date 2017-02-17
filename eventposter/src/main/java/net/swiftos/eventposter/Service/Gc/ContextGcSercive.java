@@ -1,4 +1,4 @@
-package net.swiftos.eventposter.Service.Gc;
+package net.swiftos.eventposter.service.gc;
 
 /**
  * Created by gy939 on 2016/10/3.

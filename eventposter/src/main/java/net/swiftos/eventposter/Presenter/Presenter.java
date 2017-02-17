@@ -1,9 +1,9 @@
-package net.swiftos.eventposter.Presenter;
+package net.swiftos.eventposter.presenter;
 
 import android.os.Bundle;
 
-import net.swiftos.eventposter.Core.EventPoster;
-import net.swiftos.eventposter.Utils.LOG;
+import net.swiftos.eventposter.core.EventPoster;
+import net.swiftos.eventposter.utils.LOG;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

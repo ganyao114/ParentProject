@@ -1,4 +1,4 @@
-package net.swiftos.eventposter.Presenter;
+package net.swiftos.eventposter.presenter;
 
 import android.os.Bundle;
 

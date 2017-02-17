@@ -1,20 +1,19 @@
-package net.swiftos.eventposter.Impls.ViewEvent.Handler;
+package net.swiftos.eventposter.impls.viewevent.handler;
 
 import android.view.View;
 
-import net.swiftos.eventposter.Cache.EventCache;
-import net.swiftos.eventposter.Entity.EventAnnoInfo;
-import net.swiftos.eventposter.Impls.ViewEvent.Annotation.ViewEventBase;
-import net.swiftos.eventposter.Impls.ViewEvent.Entity.DynamicHandler;
-import net.swiftos.eventposter.Impls.ViewEvent.Entity.ViewEventEntity;
-import net.swiftos.eventposter.Impls.ViewEvent.Interface.OnViewAttachListener;
-import net.swiftos.eventposter.Interface.IEventEntity;
-import net.swiftos.eventposter.Interface.IHandler;
-import net.swiftos.eventposter.Utils.LOG;
-import net.swiftos.eventposter.Utils.SyncWeakList;
+import net.swiftos.eventposter.cache.EventCache;
+import net.swiftos.eventposter.entity.EventAnnoInfo;
+import net.swiftos.eventposter.impls.viewevent.annotation.ViewEventBase;
+import net.swiftos.eventposter.impls.viewevent.entity.DynamicHandler;
+import net.swiftos.eventposter.impls.viewevent.entity.ViewEventEntity;
+import net.swiftos.eventposter.impls.viewevent.template.OnViewAttachListener;
+import net.swiftos.eventposter.template.IEventEntity;
+import net.swiftos.eventposter.template.IHandler;
+import net.swiftos.eventposter.utils.LOG;
+import net.swiftos.eventposter.utils.SyncWeakList;
 
 import java.lang.annotation.Annotation;
-import java.lang.ref.WeakReference;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 import java.util.Map;

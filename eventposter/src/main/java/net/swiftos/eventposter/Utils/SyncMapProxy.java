@@ -1,4 +1,4 @@
-package net.swiftos.eventposter.Utils;
+package net.swiftos.eventposter.utils;
 
 import java.util.Collection;
 import java.util.Map;

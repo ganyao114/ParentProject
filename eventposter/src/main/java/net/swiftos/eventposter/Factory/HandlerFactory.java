@@ -1,8 +1,7 @@
-package net.swiftos.eventposter.Factory;
+package net.swiftos.eventposter.factory;
 
-import net.swiftos.eventposter.Interface.IHandler;
+import net.swiftos.eventposter.template.IHandler;
 
-import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 

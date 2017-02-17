@@ -1,12 +1,11 @@
-package net.swiftos.eventposter.Entity;
+package net.swiftos.eventposter.entity;
 
-import net.swiftos.eventposter.Presenter.Presenter;
+import net.swiftos.eventposter.presenter.Presenter;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 

@@ -1,4 +1,4 @@
-package net.swiftos.eventposter.Impls.ActivityLife.Entity;
+package net.swiftos.eventposter.impls.activitylife.entity;
 
 import android.app.Activity;
 

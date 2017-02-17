@@ -1,4 +1,4 @@
-package net.swiftos.eventposter.Invoker.pool.factory;
+package net.swiftos.eventposter.invoker.pool.factory;
 
 import android.os.Process;
 

@@ -1,7 +1,7 @@
-package net.swiftos.eventposter.Impls.BroadCastReceiver.Annotation;
+package net.swiftos.eventposter.impls.broadcastreceiver.annotation;
 
-import net.swiftos.eventposter.Annotation.EventBase;
-import net.swiftos.eventposter.Impls.BroadCastReceiver.Handler.BroadCastReceiverHandler;
+import net.swiftos.eventposter.annotation.EventBase;
+import net.swiftos.eventposter.impls.broadcastreceiver.handler.BroadCastReceiverHandler;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

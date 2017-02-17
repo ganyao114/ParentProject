@@ -1,7 +1,7 @@
 package net.swiftos.common.presenter;
 
 import net.swiftos.common.navigation.Navigater;
-import net.swiftos.eventposter.Presenter.Presenter;
+import net.swiftos.eventposter.presenter.Presenter;
 
 import rx.Subscription;
 import rx.subscriptions.CompositeSubscription;

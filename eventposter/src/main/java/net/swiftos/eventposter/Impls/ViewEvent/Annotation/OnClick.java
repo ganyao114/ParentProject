@@ -1,9 +1,9 @@
-package net.swiftos.eventposter.Impls.ViewEvent.Annotation;
+package net.swiftos.eventposter.impls.viewevent.annotation;
 
 import android.view.View;
 
-import net.swiftos.eventposter.Annotation.EventBase;
-import net.swiftos.eventposter.Impls.ViewEvent.Handler.ViewEventHandler;
+import net.swiftos.eventposter.annotation.EventBase;
+import net.swiftos.eventposter.impls.viewevent.handler.ViewEventHandler;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

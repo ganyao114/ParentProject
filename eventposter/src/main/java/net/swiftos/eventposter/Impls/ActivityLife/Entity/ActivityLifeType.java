@@ -1,4 +1,4 @@
-package net.swiftos.eventposter.Impls.ActivityLife.Entity;
+package net.swiftos.eventposter.impls.activitylife.entity;
 
 /**
  * Created by gy939 on 2016/9/26.

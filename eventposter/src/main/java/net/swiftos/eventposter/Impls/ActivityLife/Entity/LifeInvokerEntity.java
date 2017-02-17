@@ -1,9 +1,9 @@
-package net.swiftos.eventposter.Impls.ActivityLife.Entity;
+package net.swiftos.eventposter.impls.activitylife.entity;
 
 import android.app.Activity;
 
-import net.swiftos.eventposter.Exception.EventInvokeException;
-import net.swiftos.eventposter.Interface.IEventEntity;
+import net.swiftos.eventposter.exception.EventInvokeException;
+import net.swiftos.eventposter.template.IEventEntity;
 
 import java.lang.reflect.Method;
 

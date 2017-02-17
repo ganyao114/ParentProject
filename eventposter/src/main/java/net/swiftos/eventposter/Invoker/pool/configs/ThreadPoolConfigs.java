@@ -1,4 +1,4 @@
-package net.swiftos.eventposter.Invoker.pool.configs;
+package net.swiftos.eventposter.invoker.pool.configs;
 
 /**
  * Created by gy on 2015/11/6.

@@ -1,6 +1,6 @@
-package net.swiftos.eventposter.Cache;
+package net.swiftos.eventposter.cache;
 
-import net.swiftos.eventposter.Interface.IEventEntity;
+import net.swiftos.eventposter.template.IEventEntity;
 
 import java.lang.annotation.Annotation;
 import java.util.Map;

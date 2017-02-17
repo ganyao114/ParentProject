@@ -1,6 +1,6 @@
-package net.swiftos.eventposter.Entity;
+package net.swiftos.eventposter.entity;
 
-import net.swiftos.eventposter.Interface.IHandler;
+import net.swiftos.eventposter.template.IHandler;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
